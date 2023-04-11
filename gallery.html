@@ -10,16 +10,7 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="title">Spear</a>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="gallery.html" class="active">Gallery</a></li>
-						<li><a href="elements.html">Elements</a></li>
-					</ul>
-				</nav>
-			</header>
+			<header id="header"></header>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -32,13 +23,7 @@
 										<div class="row gtr-uniform">
 											<div class="col-4"><span class="image fit"><img src="SaberGallery/HappyBirthdaySaitni.jpg" alt="" /></span></div>
 											<div class="col-4"><span class="image fit"><img src="SaberGallery/Seaweed.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-											<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="SaberGallery/Jess.jpg" alt="" /></span></div>
 										</div>
 									</div>
 					</section>
@@ -46,13 +31,18 @@
 			</div>
 
 		<!-- Footer -->
-			<footer id="footer" class="wrapper alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
+		<footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+			   <div id="copyright" align="center">&copy; 2023 - 2023 Spear</div>
+			   <script>
+				  (function(){
+					  let cpr = document.getElementById("copyright");
+					  cpr.innerHTML = "&copy; 2023 - "+new Date().getFullYear()+" Spear - All Rights Reserved.";
+					  cpr.innerHTML += "<br/>Last Updated : "+document.lastModified;
+				  })();
+			   </script>
+			</div>
+		 </footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

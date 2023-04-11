@@ -1,8 +1,3 @@
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -186,5 +181,24 @@
 
 				}
 			});
+			let appHeader = `
+			<!-- Header -->
+    <a href="index.html" class="title">Spear</a>
+    <nav>
+        <ul>
+            <li><a id="nav-tab" href="index.html">Home</a></li>
+            <li><a id="nav-tab" href="bio.html">Bio</a></li>
+            <li><a id="nav-tab" href="coaching.html">Coaching</a></li>
+			<li><a id="nav-tab" href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
 
+		`;
+		document.getElementById("header").innerHTML = appHeader;
+		const current = window.location.href;
+		document.querySelectorAll("a#nav-tab").forEach(function(elem){ 
+    		if(elem.href.includes(current)){
+    			elem.classList.add("active");
+    		}
+		});
 })(jQuery);
