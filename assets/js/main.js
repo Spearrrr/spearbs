@@ -183,13 +183,13 @@
 			});
 			let appHeader = `
 			<!-- Header -->
-    <a href="../index.html" class="title">Spear</a>
+    <a href="../home" class="title">Spear</a>
     <nav>
         <ul>
-            <li><a id="nav-tab" href="../index.html">Home</a></li>
-            <li><a id="nav-tab" href="../bio.html">Bio</a></li>
-            <li><a id="nav-tab" href="../coaching.html">Coaching</a></li>
-			<li><a id="nav-tab" href="../gallery.html">Gallery</a></li>
+            <li><a id="nav-tab" href="../index">Home</a></li>
+            <li><a id="nav-tab" href="../bio">Bio</a></li>
+            <li><a id="nav-tab" href="../coaching">Coaching</a></li>
+			<li><a id="nav-tab" href="../gallery">Gallery</a></li>
         </ul>
     </nav>
 
